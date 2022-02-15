@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
  
 db = SQLAlchemy()
- 
+#definiendo los modelos
 class NovelaModel(db.Model):
     __tablename__ = 'books'
  
