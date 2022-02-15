@@ -104,5 +104,6 @@ api.add_resource(NovelaView,'/novela/<string:name>')
 
  
 app.debug = True
+#Aqui inicia
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)
